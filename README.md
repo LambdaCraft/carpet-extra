@@ -3,8 +3,6 @@ Extra Features for Carpet Mod
 
 Use along side base fabric-carpet mod for the same minecraft version.
 
-Due to how autoCraftingTable feature is implemented, if you are using other mods that require you to use fabric-api (carpet doesn't need it, btw), and you run carpet-extra on a server, the clients must run the same mod configuration as well. If you are only using carpet-style mods, you can connect to the servers with whatever vanilla compatible client you are using.
-
 # Carpet Extra features
 ## accurateBlockPlacement
 Client can provide alternative block placement  
@@ -12,17 +10,7 @@ Client can provide alternative block placement
 * Default value: `false`  
 * Required options: `true`, `false`  
 * Categories: `EXTRAS`, `SURVIVAL`  
-  
-## autoCraftingDropper
-Auto-crafting dropper  
-Is a dropper points to the crafting table   
-and has a valid recipe in its 3x3 it crafts it.  
-Overrides comparators so they indicate number of filled slots instead  
-Also makes hoppers, droppers and dispensers input max 1 item per slot  
-* Type: `boolean`  
-* Default value: `false`  
-* Required options: `true`, `false`  
-* Categories: `CREATIVE`, `EXTRAS`, `DISPENSER`  
+
   
 ## blockStateSyncing
 Fixes block states in F3 debug mode not updating for some blocks. May cause increased network traffic  

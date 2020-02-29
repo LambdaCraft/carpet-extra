@@ -20,9 +20,6 @@
     "HopperMinecartEntity_cooldownFixMixin",
     "HopperMinecartEntity_transferItemsOutFeatureMixin",
 
-    "DropperBlock_craftingMixin",
-    "DispenserBlockEntity_craftingMixin",
-
     "VillagerEntity_wartFarmMixin",
     "FarmerVillagerTask_wartFarmMixin",
     "VillagerTaskListProvider_wartFarmMixin",
